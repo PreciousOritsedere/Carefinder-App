@@ -19,19 +19,6 @@ function Navbar() {
     <nav className={styles.nav}>
       <Image src={Logo} alt="Logo" />
 
-      <div className={styles.desktop_menu}>
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          {/* <li>Drugs</li> */}
-          <li>Health</li>
-          <li>Blog</li>
-        </ul>
-        <div className={styles.nav_signup}>
-          <p>I have an health care </p>
-          <button>Sign up</button>
-        </div>
-      </div>
       <div>
         <>
           {showMenu ? (
@@ -46,6 +33,21 @@ function Navbar() {
           )}
         </>
       </div>
+
+      <div className={styles.desktop_menu}>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          {/* <li>Drugs</li> */}
+          <li>Health</li>
+          <li>Blog</li>
+        </ul>
+        <div className={styles.nav_signup}>
+          <p>I have an health care </p>
+          <button>Sign up</button>
+        </div>
+      </div>
+     
 
       {showMenu ? <NavMenu /> : null}
     </nav>
