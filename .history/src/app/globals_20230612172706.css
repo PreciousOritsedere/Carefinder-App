@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  ma
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}

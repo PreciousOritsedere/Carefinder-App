@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+
+.hamburger {
+    position: relative;
+}
+
+.nav_menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+
+}
