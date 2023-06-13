@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Location_search from "@/Components/Location_Search/Location_search";
 import Background_icons from "@/assets/home/background_icons.svg";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
           is just a <span>click</span> away.
         </p>
       </div>
+      <Location_search />
     </main>
   );
 }
