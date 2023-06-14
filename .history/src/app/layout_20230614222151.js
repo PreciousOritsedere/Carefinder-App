@@ -13,6 +13,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
+  return (
+    //...
+
   return (
    
       <div className={work_sans.className}>

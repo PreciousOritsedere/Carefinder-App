@@ -17,7 +17,7 @@ export default function Home() {
         <SearchBar />
       </div>
       {/* <Location_search /> */}
-     
+      <p>hi</p>
     </main>
   );
 }
